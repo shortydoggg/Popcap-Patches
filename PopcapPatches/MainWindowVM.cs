@@ -126,7 +126,7 @@ namespace PopcapPatches
           }
           if (RemoveVideoCardCheck)
           {
-            suffix += "+vard";
+            suffix += "+vcard";
             var videoCardPattern = $"{VideoCardCheckLeft} {VideoCardCheckCenter} {VideoCardCheckRight}";
             patch.RemoveVideoCardCheck(videoCardPattern, VideoCardCheckLeft.Split(' ').Length);
             AddLog("Remove video card check: OK");
